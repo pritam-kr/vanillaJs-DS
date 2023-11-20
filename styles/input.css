@@ -1,0 +1,5 @@
+.disabled-input{
+    opacity: .7;
+    background-color: var(--secondary-color);
+    cursor: no-drop;
+}
