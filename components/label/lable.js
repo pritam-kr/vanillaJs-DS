@@ -9,7 +9,7 @@ export const lable = ({
   const element = document.createElement(heading);
   element.textContent = textContent;
   element.classList.add("label");
-  if (customClass) element.classList.add = customClass;
+  if (customClass) element.classList.add(customClass);
   onClick &&
     element.addEventListener(event, (event) => {
       if (stopPropagate) e.stopPropagation();

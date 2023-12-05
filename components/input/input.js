@@ -9,6 +9,7 @@ export const input = ({
   const element = document.createElement("input");
   element.value == value;
   element.classList.add("input");
+  if (customClass) element.classList.add(customClass);
   if (disabled) {
     element.setAttribute("disabled", disabled);
     element.classList.add("disabled-input");
